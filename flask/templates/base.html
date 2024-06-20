@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Division and Button</title>
+    <style>
+        .container {
+            background:#002A4A;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .subdivision {
+            flex-basis: 60%;
+            background-color: #d7d7d7;
+            padding: 20px;
+            margin: 10px;
+            height: 200px;
+            border-radius: 5px;
+            background: url("s4.jpg"); /* Absolute image path */
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+            transition: .3s ease-in-out;
+        }
+
+        .btn {
+            background-color: #0E8CC2;
+            color: white;
+            padding: 15px 28px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #013E5F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <h1 style="font-size:200%;color:red;text-align: center;">DEMO</h1>
+        <div class="subdivision">
+           
+            <h2 style="font-size:100%;color:rgb(0, 0, 0);font-weight: 1000%;">........................................................................................................</h2>
+            <p></p>
+        </div>
+        <!-- Button inside the container for centering -->
+        <a href="http://127.0.0.1:5000/video_feed" style="text-decoration: none;"><button class="btn">START</button></a>
+    </div>
+</body>
+</html>
